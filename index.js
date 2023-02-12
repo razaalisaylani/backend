@@ -30,3 +30,5 @@ app.use(express.json());
 app.get("/", async (req, res) => res.send("Hello World"));
 
 app.listen(port, () => console.log(`connection succesful at ${port}`));
+
+app.use('/api',router)
