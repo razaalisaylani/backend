@@ -1,7 +1,7 @@
 import bcrypt from "bcrypt";
 import Joi from "joi";
 // import MensRAnking from "../src/models/mens.js";
-import mainSchema from "./Schema";
+import mainSchema from "./Schema.js";
 import jwt from "jsonwebtoken";
 import * as dotenv from "dotenv";
 dotenv.config();

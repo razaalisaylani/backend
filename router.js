@@ -1,7 +1,7 @@
 import express from "express";
 import jwt from "jsonwebtoken";
-import login from "./src/login";
-import addUsers from "./src/signup";
+import login from "./src/login.js";
+import addUsers from "./src/signup.js";
 // import post from "../../requests/post.js";
 // import get from "../../requests/get.js";
 // import find from "../../requests/find.js";

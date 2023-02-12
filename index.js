@@ -1,4 +1,5 @@
 import express from "express";
+import router from "./router.js";
 // import router from "./src/routers/men.js";
 import mongoose from "mongoose";
 // import cors from "cors";
