@@ -5,25 +5,22 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+     "start" : "node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/razaalisaylani/backend.git"
   },
   "author": "",
-  "type": "module",
-  "license": "ISC",
+  "type" : "module",
+  "license": "ISC", 
   "bugs": {
     "url": "https://github.com/razaalisaylani/backend/issues"
   },
   "homepage": "https://github.com/razaalisaylani/backend#readme",
   "dependencies": {
-    "bcrypt": "^5.1.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "joi": "^17.7.1",
-    "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.9.1",
     "nodemon": "^2.0.20"
   }
